@@ -31,6 +31,7 @@ next-page-button{
   }
 
   .spacer {
+    padding-left: 5px;
     flex: 1;
   }
 
@@ -51,7 +52,7 @@ next-page-button{
     margin: 0 16px;
   }
 
-  .toolbar #twitter-logo {
+  /* .toolbar #twitter-logo {
     height: 40px;
     margin: 0 8px;
   }
@@ -64,7 +65,7 @@ next-page-button{
   .toolbar #twitter-logo:hover,
   .toolbar #youtube-logo:hover {
     opacity: 0.8;
-  }
+  } */
 
   .content {
     display: flex;

@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContentComponent } from './content/content.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainLayoutComponent } from '../../projects/rajat0/src/app/pages/main-layout/main-layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContentComponent
+    ContentComponent,
+    MainLayoutComponent
   ],
   imports: [
     BrowserModule,
